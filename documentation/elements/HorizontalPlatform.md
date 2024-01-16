@@ -1,0 +1,3 @@
+# HorizontalPlatform
+
+`HorizontalPlatform` is a subclass of `Platform`. It's initialized with a name, position, and dimensions. The `move` method is overridden but empty, as this platform doesn't move. The `getX`, `getY`, `getWidth`, and `getHeight` methods return the current position and dimensions. The `getBounds` method returns its bounding box. The `setImage` and `getImage` methods manage its texture. The `draw` method draws it on the screen.

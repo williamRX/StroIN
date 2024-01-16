@@ -1,0 +1,3 @@
+# Consumable
+
+`Consumable` is a subclass of `Items` that represents consumable items in the game. It's initialized with a name and a health restore value. The `getHealthRestore` method returns the health restore value. The `getSprite` method returns the item's texture. The `isPickable` method checks if the player can pick up the item. The `isUsed` method returns a boolean indicating if the item has been used.

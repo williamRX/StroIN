@@ -1,0 +1,3 @@
+# MenuScreen
+
+`MenuScreen` is a class that implements the `Screen` interface from the libGDX library. It represents the main menu screen of the game. It's initialized with a `StroIN` game instance. The `show` method sets up the screen, creating a `Stage` for the UI and `TextButton` objects for the "Play", "Exit", and "Load Save" options. Each button's click listener performs the corresponding action: the "Play" button switches to the level selection screen, the "Exit" button exits the game, and the "Load Save" button switches to the `LoadSaveScreen`. The `render` method clears the screen and draws the UI.

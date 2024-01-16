@@ -1,0 +1,3 @@
+# LoadSaveScreen
+
+`LoadSaveScreen` is a class that implements the `Screen` interface from the libGDX library. It represents the screen where the player can load or save the game. It's initialized with a `StroIN` game instance and a `GameData` object for loading and saving game data. The `show` method sets up the screen, creating a `Stage` for the UI and a `TextButton` for each save file found in the game's directory. Each button's click listener loads the corresponding save file, creates a `Player` object from the loaded data, sets the current level based on the loaded data, and switches to the `GameScreen`. The `render` method clears the screen and draws the UI.

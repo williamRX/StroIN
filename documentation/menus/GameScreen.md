@@ -1,0 +1,3 @@
+# GameScreen
+
+`GameScreen` is a class that implements the `Screen` interface from the libGDX library. It represents the main game screen where the gameplay happens. It's initialized with a `StroIN` game instance. The `render` method is responsible for rendering the current level. If the current level is not null, it passes the game instance to the level and calls the level's render method. The `getGame` method returns the game instance.

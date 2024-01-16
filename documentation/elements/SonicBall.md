@@ -1,0 +1,3 @@
+# SonicBall
+
+`SonicBall` is a subclass of `Platform`. It's initialized with a name, position, dimensions, and speed. The `update` method adjusts its position based on speed and elapsed time, multiplied by 15 for faster movement. The `getVelocityX` method returns the horizontal speed. The `move` method is overridden but empty, as the movement is handled in the `update` method. The `getX`, `getY`, `getWidth`, and `getHeight` methods return the current position and dimensions. The `getBounds` method returns its bounding box. The `setImage` and `getImage` methods manage its texture. The `draw` method draws it on the screen.

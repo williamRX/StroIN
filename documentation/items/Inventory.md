@@ -1,0 +1,3 @@
+# Inventory
+
+`Inventory` is a class that represents the player's inventory in the game. It's initialized with an array of `Consumable` items, with a maximum capacity of 10. The `addConsumable` method adds a `Consumable` item to the first available slot in the inventory. The `removeConsumable` method removes a specific `Consumable` item from the inventory. The `getConsumables` method returns the array of `Consumable` items. The `showInventory` method prints the names of all `Consumable` items currently in the inventory.

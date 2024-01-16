@@ -1,0 +1,3 @@
+# Chaos
+
+`Chaos` is a subclass of `Weapons` used by the player in the game. It's initialized with a name, damage value, and a boolean indicating if it's a default weapon. The `Chaos` class also has a `Sprite` object, position, dimensions, and a `used` flag indicating if the weapon is in use. The `isPickable` method checks if the player can pick up the weapon. The `getBounds` method returns its bounding box. The `setPosition` and `getPosition` methods manage its position. The `isUsed` method returns the `used` flag.

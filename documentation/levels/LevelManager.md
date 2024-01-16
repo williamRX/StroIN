@@ -1,0 +1,3 @@
+# LevelManager
+
+`LevelManager` is a class that manages the game levels. It's initialized with a `Level` object representing the current level. The `setLevelByNumber` method sets the current level based on a given level number. It uses a switch statement to determine which level to set, creating a new instance of the appropriate `Level` subclass. If an invalid level number is provided, it prints an error message.

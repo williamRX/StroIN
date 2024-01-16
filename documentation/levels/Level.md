@@ -1,0 +1,3 @@
+# Level
+
+`Level` is an interface that represents a level in the game. It has five methods: `create`, `create(Player loadedPlayer)`, `render`, `dispose`, and `passGame`. The `create` methods initialize the level, with the second one taking a `Player` object for levels where the player is already defined. The `render` method is responsible for drawing the level on the screen. The `dispose` method is used to clean up resources when the level is no longer needed. The `passGame` method is used to pass the `StroIN` game instance to the level.
